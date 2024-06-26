@@ -1,11 +1,15 @@
 import logo from './logo.svg';
+import Test from './Test';
+import TestLol from './TestLol';
 import './App.css';
 
 function App() {
-  const test: any = 123;
+  const test = 123;
   return (
     <div className="App">
       <header className="App-header">
+      <Test a={1} b={2}/>
+      <TestLol a={3} b={4}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to {test}. Test 2
@@ -18,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <div>TEST</div>
       </header>
     </div>
   );
